@@ -1,0 +1,231 @@
+    *{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      color: black;
+      box-sizing: border-box;
+      font-family: poppins, poppins-regular ,Arial, Helvetica, sans-serif;
+    }
+    body{
+      background-color: #F7F7F7;
+    }
+    header{
+      display: grid;
+      grid-template-columns: 2fr 8fr 4fr;
+      padding: 18px 5px;
+      border-radius: 20px;
+background-color: #DCDCE0;
+    }
+    .nav-logo{
+      padding-left: 10px;
+    }
+    .nav span{
+   padding-left: 20px;
+  
+    }
+    
+   
+
+    .nav{
+      background-color: #F5F6FA;
+      border-radius: 20px;
+      padding-bottom: 10px;
+      
+      width: 85%;
+    }
+    .nav-service a{
+      padding-left: 20px;
+    }
+    
+   .nav-service button {
+     border-radius: 20px;
+     padding: 10px 15px;
+   }
+   .search img{
+     padding-left: 0px;
+   }
+
+.container{
+  width: 100%;
+  height :450px;
+  margin-top: 1.8em;
+  border-radius: 15px;
+  display: flex;
+  background: linear-gradient(90deg, #C1DEE8 , #FBD9B9 );
+
+}
+
+.container-1{
+  width: 50%;
+  
+  text-align: start ;
+  column-gap: 22rem;
+  padding-left: 2em;
+  padding-top: 4em;
+}
+.container-1 ,h4,h1,p,input,a{
+  margin: 20px auto;
+}
+
+.container-1 h1{
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+.container-1 input{
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 12px ;
+}
+
+.container-1 a{
+  border-radius: 20px;
+  padding: 11px;
+  color: white;
+  background-color: #141415;
+  margin-left: -30px;
+}
+.container-2{
+  width: 50%;
+  
+  
+}
+
+.container-2>img{
+  width: 100%;
+  margin-top: 5rem;
+}
+  .nav img{
+    
+    padding-left: 20px;
+    margin-top: 15px
+  }
+.step{
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+}
+.step-card{
+  display: flex;
+  margin: 30px 40px;
+  width: 100%
+}
+
+
+.step-card div{
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.project{
+  margin-left: 30px;
+}
+.project>p{
+  font-size: 40px;
+  font-weight: bold;
+}
+.project-cards{
+  width: 100%;
+  display: flex;
+  
+}
+.project-cards div{
+  border-radius: 15px;
+  background-color: #FBFCFF;
+  border: 2px solid #4F4D4D42;
+  padding: 20px;
+  margin: 10px;
+  
+}
+.project-cards img{
+  border-radius: 15px;
+  margin: -15px;
+  padding-bottom: 10px;
+}
+.broker{
+    width: 100%;
+    height :400px;
+    margin-top: 1.8em;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.broker1{
+    margin-right: 20px;
+width: 50%;
+}
+.broker1 a{
+    border-radius: 20px;
+    padding: 11px 15px;
+    color: white;
+    background-color: #141415;
+    margin-right: 30px;
+    
+}
+#white{
+  background-color: #FFFBFB;
+  color: black;
+  border: 1px solid #00000094;
+}
+.broker2 img{
+  width: 80%;
+  margin-left: 50px;
+  
+}
+.number{
+  display: flex;
+  margin-right: 20px;
+}
+.number p{
+  font-size: 40px;
+  font-weight: bolder;
+  
+}
+.number span{
+  font-weight: normal;
+  font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height :350px;
+    border-radius: 15px;
+    display: flex;
+    background: linear-gradient(90deg, #C1DEE8, #FBD9B9);
+    
+    
+}
+.footer-1{
+  margin-left: 30px;
+  width: 50%;
+  margin-top: 50px;
+}
+
+
+.footet-1 h1{
+  font-size: 3em;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+.footer-1 input{
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 13px ;
+}
+
+.footer-1 a{
+  border-radius: 20px;
+  padding: 11px;
+  color: white;
+  background-color: #141415;
+  margin-left: -30px;
+  margin-top: 30px;
+}
+.footer-2{
+  width: 50%;
+}
+.footer-2 img{
+  width: 90%;
+  margin-right: 0px;
+}
